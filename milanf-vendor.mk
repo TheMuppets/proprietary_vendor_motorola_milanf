@@ -3271,7 +3271,6 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopestriping \
     libpn557_fw \
-    libpowercore \
     libremosaic_wrapper \
     libsl_fp_impl \
     libswregistrationalgo \

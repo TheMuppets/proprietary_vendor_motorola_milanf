@@ -3069,7 +3069,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/SwadAIMod.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/SwadAIMod.bin \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/SwadCalib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/SwadCalib.bin \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/SwadParamList.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/SwadParamList.txt \
+    vendor/motorola/milanf/proprietary/vendor/etc/camera/aec_golden_depth.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aec_golden_depth.bin \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/aec_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aec_golden_wide.bin \
+    vendor/motorola/milanf/proprietary/vendor/etc/camera/dual_golden_depth.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_depth.bin \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/dual_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_wide.bin \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/milanf/proprietary/vendor/etc/camera/vidhance_calibration_2rd:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_2rd \
@@ -3235,6 +3237,8 @@ PRODUCT_PACKAGES += \
     fingerprint.silead.default \
     libBSTSWAD \
     libRbsFlow \
+    libaidenoiser \
+    libaidenoiserv2 \
     libarcsoft_low_light_shot \
     libbitmlengine \
     libbitmlenginev2 \
@@ -3260,9 +3264,14 @@ PRODUCT_PACKAGES += \
     libjpege \
     liblowlight_ai_portrait.arcsoft \
     libmctfengine_stub \
+    libmmcamera_bestats \
     libmmcamera_cac3 \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmmcamera_lscv35 \
     libmmcamera_mfnr \
     libmmcamera_mfnr_t4 \
+    libmmcamera_pdpc \
     libmot_afd \
     libmotoisdataqueue \
     libmpbase \
@@ -3271,7 +3280,11 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopestriping \
     libpn557_fw \
+    libqll10 \
+    libqllengine \
     libremosaic_wrapper \
+    libremosaiclib \
+    librmsclib1 \
     libsl_fp_impl \
     libswregistrationalgo \
     libtfestriping \
